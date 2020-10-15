@@ -10,4 +10,19 @@ class AttributeController extends Controller
     {
         return view($this->_config['view']);
     }
+
+    public function edit()
+    {
+        return view($this->_config['view']);
+    }
+
+    public function destroy()
+    {
+        return view($this->_config['view']);
+    }
+
+    public function massDestroy()
+    {
+        return view($this->_config['view']);
+    }
 }
